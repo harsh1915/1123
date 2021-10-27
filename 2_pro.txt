@@ -1,0 +1,23 @@
+practicle : 2
+
+footprinting 
+using nmap performs the following task
+1. how many hots are running
+2. what port are open
+3. service running
+4. determining
+5. version
+6. udp  tcp
+7. nmap and write down notebook
+
+
+
+nmap 10.10.10.2/24
+
+nmap -sv -O 10.10.10.2
+
+sudo nmap 10.10.10.2 -O 
+
+sudo nmap -sU -sT -p0-65535 10.10.10.2
+
+

