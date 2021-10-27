@@ -1,0 +1,13 @@
+burp suit start
+proxy
+firefox open
+settings->manage more setting->search proxy->setting->manual and port 8080->ok
+new tab ma->http://burp->ca certificate->save file
+settings->search certificate->view certificate->import->certificate select karvanu and ok
+new tab ma google.com
+burp ma forward
+google strat-> pc nu ip(http://ip/DVWA-master)->enter
+username:-admin
+password:-password
+security->low karvanu->forward
+sql injection ma->1->submit->forward
