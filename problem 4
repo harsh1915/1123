@@ -1,0 +1,26 @@
+
+step 1:click on ganache in etherium ubntu
+
+step 2: netamask is a wallet.
+
+step 3 open googal creome and add the meta mask
+
+4 connect with wollet(metamask) and blockchain
+
+   4.1 ganche ma transaction ni privet key copy kari meta mask ma localhost 8545 select karvanu 
+       than ganche ma version set karvanu settings ma jai ne 8545(connect karvanu localhost )
+   4.2 import accunt ma jai ne  private key tranzaction ni (link) peast karvanu
+   
+5. open cmd in ubantu 
+6. instal ipfs linux in ubantu (wget first link copy kari ubantu ma peast karvanu cmd ma )
+   >> wget https://dist.ipfs.io/go-ipfs/v0.10.0/go-ipfs_v0.10.0_linux-amd64.tar.gz
+   >> tar -xvzf go-ipfs_v0.10.0_linux-amd64.tar.gz
+   >>cd go-ipfs
+   >>sudo bash install.sh
+7. open gedit (text edit )
+8.>>ipfs init
+9.>> cd ..(ipfs mathi bahar nikdva mate )
+10. >>ls
+11. >> cd Desktop (desktop ma javanu )
+12.>>ipfs add minaxi(file name) (cmd ma)(file add thase )
+13.>>ipfs cat QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH(file id )

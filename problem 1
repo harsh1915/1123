@@ -1,0 +1,21 @@
+step 1: Open https://www.blockchain.com/
+
+step 2: than go to Explorer menu
+       
+	    2.1 view Blocks
+		
+		      2.1.1  show miner
+			 
+		
+		2.2 view Transactions
+		
+		     2.2.1 show transaction details
+			       
+				   like:-unspend(note send)
+				        -spend (sended)
+						-Hash
+						-Status
+						-Total Input
+						-Total Output
+						
+step 3:Search your transaction,an address or block

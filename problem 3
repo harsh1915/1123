@@ -1,0 +1,53 @@
+
+step 1: open https://remix.ethereum.org/
+
+step 2: Create new file in Constract folder 
+        
+		2.1 : create Greeter.sol
+		      
+			  -coding of greeter file
+			 
+			    pragma solidity >=0.4.0;
+
+					contract greeter
+					{
+						string public yourName;
+						function greeter() public
+						{
+							yourName="world";
+						}
+						function set(string name) public
+						{
+							yourName = name;
+						}
+						function hello() constant public returns (string){
+						return yourName;
+						}
+					}
+
+step 3: Solidity Compiler
+
+        -set 0.4.0. compiler
+
+step 4: Deploy and run
+        
+		
+		4.0 (ENVIRONMENT)
+		     -Injected Web3
+		
+		4.1 Than transaction deploy 
+		    -than connected to metamask
+			- than confirm
+			
+step 5- opne metamask
+        
+		-view transaction
+		
+step 6: opne for chack transaction
+      
+	    https://rinkeby.etherscan.io/
+		
+		(address copy of transaction)
+		
+		   
+		   
